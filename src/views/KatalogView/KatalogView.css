@@ -1,0 +1,47 @@
+.item {
+    display: flex;
+    height: min-content;
+    max-height: 500px;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    margin-bottom: 1rem;
+    /* border: 1px red solid; */
+}
+
+
+.item-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.item-link:hover {
+    text-decoration:underline;
+}
+
+.university-logo {
+    display: flex;
+    width: 20%;
+    height: min-content;
+    margin-right: 1rem;
+
+}
+.university-logo img{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 0
+
+}
+
+.uni-short-description {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+
+.search-input {
+    width: 100%;
+    background: none;
+    color: white
+}

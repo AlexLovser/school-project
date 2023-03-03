@@ -1,0 +1,10 @@
+.photo {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+
+.half {
+    width: 50%;
+}

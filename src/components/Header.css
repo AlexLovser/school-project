@@ -1,0 +1,48 @@
+#header {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary);
+    margin-bottom: 3rem;
+}
+
+
+
+.header-item {
+    display: flex;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: var(--primary);
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.header-item:hover {
+    opacity: 0.5;
+
+}
+
+#logo {
+    position: absolute;
+    display: flex;
+    width: max-content;
+    height: max-content;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    left: 4rem
+}
+
+#logo img {
+    display: flex;
+    height: 40px;
+    width: auto;
+    margin-right: 1rem;
+
+}

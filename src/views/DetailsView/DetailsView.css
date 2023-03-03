@@ -1,0 +1,53 @@
+.to_center {
+    align-items: center;
+}
+
+.details-banner {
+    display: flex;
+    width: 100%;
+    height: min-content;
+    margin-right: 1rem;
+    justify-content: center;
+    background-image: url(/public/back.jpg);
+    padding: 3rem 1rem 3rem 1rem;
+
+}
+.details-banner img{
+    display: flex;
+    width: 30%;
+    height: auto;
+    margin: 0
+
+}
+.fac-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: max-content;
+    overflow: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    white-space: pre;
+    
+}
+
+.fac {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 15px;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    white-space:normal;
+}
+
+.fac img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    margin-bottom: 1rem;
+}
